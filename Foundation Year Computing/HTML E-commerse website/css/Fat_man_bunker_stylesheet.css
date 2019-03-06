@@ -1,0 +1,184 @@
+@import url(https://fonts.googleapis.com/css?family=Droid+Sans);
+/*this is all the formatting for the 404 page*/
+div#fourohfour
+	{
+	margin:auto;
+	background-image: url("../images/mushroom_cloud.jpg");
+	background-repeat:no-repeat;
+	width:800px;
+	height:800px;
+	color:#32CD32;
+	}
+/*main wrapper for every page of the site(except the 404), this is mainly to have 2 backgrounds*/
+div#wrapper
+	{
+	padding:0px;
+	width:1600px;
+	height:1600px;
+	margin-left:auto;
+	margin-right:auto;
+	background-image: url("../images/scanline loop.png");
+	background-repeat:repeat-y;
+	background-size:1600px 800px;
+	color:#32CD32;
+	}
+	/*The header is split into 2 divs in collumns, and then the left collumn is split again into 2 more to make 3 collumns total.*/
+header
+	{
+	margin:0px;
+	padding:0px;
+	height:10%;
+	}
+div#headLeft
+	{
+	margin:0px;
+	padding:0px;
+	float:left;
+	width:20%;
+	}
+div#headRight
+	{
+	margin:0px;
+	padding:0px;
+	float:left;
+	width:80%;
+	}
+div#headCentre
+	{
+	margin:0px;
+	padding:0px;
+	font-size:30px;
+	text-align:center;
+	float:left;
+	width:75%;
+	}
+/*the main categories on all page of the site(except the 404)*/
+h1#categories
+	{font-size:40px;
+	text-align:center;
+	}
+	/*hyperlinks*/
+nav#categoryLinks
+	{font-size:30px;
+	text-align:center;
+	color:#006600;
+	}
+/*changed all hyperlink colours*/
+a:link{color:#32CD32;
+text-decoration:none;}
+a:visited{color:#32CD32;
+	text-decoration:none;}
+a:active{color:#003300;
+	text-decoration:none;
+	}
+/*the 3rd column of the header*/
+div#headRightRight
+	{
+	margin:0px;
+	padding:0px;
+	font-size:30px;
+	text-align:left;
+	float:left;
+	width:25%;
+	}
+/*line break between header and section*/
+hr
+	{
+	width:1600px;
+	border-color:#32CD32;
+	}
+	/*the section is the bit that changes for each page of the site*/
+section
+	{
+	height:75%;
+	clear:both;
+	}
+/*headings(shipping references etc).*/
+h2
+	{font-size:30px;
+	text-align:center;
+	}
+/*all the featured products are displayed in a table*/
+table
+	{
+	border-spacing:25px;
+	margin:40px;
+	width:95%;
+	height:90%;
+	}
+td
+	{
+	border-radius:40px;
+	opacity:0.3;
+	background-color:#3CB371;
+	}
+/*all pictures of products are set to auto fit but be no larger then the cell they are contained in*/
+.featured
+	{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	max-height:348px;
+	max-width:348px;
+	}
+/*footer split into 2 columns*/
+footer
+	{
+	margin:0px;
+	padding:0px;
+	font-size:30px;
+	}
+div#footLeft
+	{float:left;
+	text-align:center;
+	}
+div#footright
+	{float:right;
+	}
+/*a second background acts as a border for when the window is larger then the web page*/
+body
+	{font-family:"Droid Sans", "arial";
+	margin:0px;
+	padding:0px;
+	background-image: url("../images/fallout___roaming_the_wasteland___wallpaper_pack_by_ghostfire-d9bkfgq.jpg");
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	}
+/*logo on every page (upper left)*/
+img#logo
+	{
+	max-width:100%;
+	max-height:100%;
+	}
+/*format and colour for the select menu in the shipping and billing pages*/
+select
+	{
+	border-radius:10px;
+	font-size:20px;
+	background-color:#3CB371;
+	border-color:#3CB371;
+	}
+/*format and colour for the input(search bar, user name, addresse etc.) on all pages that have them*/
+input
+	{
+	border-radius:10px;
+	font-size:20px;
+	background-color:#3CB371;
+	border-color:#3CB371;
+	}
+/*format and colour for the buttons(view basket, continue shopping, ,submit, reset etc.) on all pages that have them*/
+button
+	{
+	border-radius:10px;
+	font-size:20px;
+	height:45px;
+	width:auto;
+	color:#32CD32;
+	background-color:#003300;
+	border-color:#003300;
+	}
+/*formatting for the references page*/
+#references
+	{text-align:center;
+	list-style-type:none;
+	}

@@ -1,0 +1,9 @@
+﻿  lorry.cpp
+  frogger_main.cpp
+h:\imat1212(c++)\frogger assignment\frogger for vs 15\sfml template\frogger_main.cpp(37): warning C4996: 'sf::Text::setColor': was declared deprecated
+  h:\imat1212(c++)\frogger assignment\external libraries\sfml\include\sfml\graphics\text.hpp(177): note: see declaration of 'sf::Text::setColor'
+  frog.cpp
+  car.cpp
+  Generating Code...
+  SFML Template.vcxproj -> H:\IMAT1212(c++)\Frogger assignment\Frogger for vs 15\Debug\SFML Template.exe
+  SFML Template.vcxproj -> H:\IMAT1212(c++)\Frogger assignment\Frogger for vs 15\Debug\SFML Template.pdb (Full PDB)

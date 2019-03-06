@@ -1,0 +1,22 @@
+﻿  stdafx.cpp
+  vboteapot.cpp
+d:\users\brendan\desktop\dmu stuff\games programming year3\gamesprogrammingyear3\shaders\coursework\teapotad\teapotad\vboteapot.h(5): fatal error C1083: Cannot open include file: 'glm.hpp': No such file or directory
+  vboplane.cpp
+  vbocube.cpp
+  Texture.cpp
+  TeapotAD.cpp
+d:\users\brendan\desktop\dmu stuff\games programming year3\gamesprogrammingyear3\shaders\coursework\teapotad\teapotad\teapotad.cpp(9): fatal error C1083: Cannot open include file: 'glfw3.h': No such file or directory
+  scenediffuse.cpp
+d:\users\brendan\desktop\dmu stuff\games programming year3\gamesprogrammingyear3\shaders\coursework\teapotad\teapotad\scenediffuse.h(6): fatal error C1083: Cannot open include file: 'glfw3.h': No such file or directory
+  QuatCamera.cpp
+d:\users\brendan\desktop\dmu stuff\games programming year3\gamesprogrammingyear3\shaders\coursework\teapotad\teapotad\quatcamera.h(4): fatal error C1083: Cannot open include file: 'glm.hpp': No such file or directory
+  gl_core_4_3.cpp
+  glutils.cpp
+  glslprogram.cpp
+d:\users\brendan\desktop\dmu stuff\games programming year3\gamesprogrammingyear3\shaders\coursework\teapotad\teapotad\glslprogram.h(13): fatal error C1083: Cannot open include file: 'glm.hpp': No such file or directory
+  drawable.cpp
+  CubeMapScene.cpp
+d:\users\brendan\desktop\dmu stuff\games programming year3\gamesprogrammingyear3\shaders\coursework\teapotad\teapotad\cubemapscene.h(4): fatal error C1083: Cannot open include file: 'glfw3.h': No such file or directory
+  Bitmap.cpp
+d:\users\brendan\desktop\dmu stuff\games programming year3\gamesprogrammingyear3\shaders\coursework\teapotad\teapotad\bitmap.cpp(26): fatal error C1083: Cannot open include file: 'stb_image.h': No such file or directory
+  Generating Code...

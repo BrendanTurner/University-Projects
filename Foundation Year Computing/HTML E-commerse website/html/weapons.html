@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+
+<html lang = "en-GB">
+<!--Page Title, Link to style sheet(s)-->
+	<head>
+		<meta charset="UTF-8">
+		<title>Fat Man's Bunker</title>
+		<link rel="stylesheet" type="text/css" href="../css/Fat_man_bunker_stylesheet.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/Fat_man_bunker_sub_categories_stylesheet.css"/>
+	</head>
+<!--The body contains everything and has the wasteland background assigned to it-->
+	<body>
+<!--this div serves as a "wrapper" to keep everything else inside it the same size no matter how it is zoomed.-->
+		<div id ="wrapper">
+<!--the header is broken into 2 divs and then the right hand div is broken down into 2 more to give 3 collumns-->
+<!--It stays consistent on every page-->
+			<header>
+<!--This div is for the Logo of the site-->
+				<div id="headLeft">
+					<a href="assign2.html">
+					<img id="logo" src="../images/fatmans_bunker_logo.png" alt="website logo">
+					</a>
+				</div>
+				<div id="headRight">
+<!--The search bar and main categories are in this div-->
+					<div id="headCentre">
+						<br>
+						<form method="post">
+						<label for="searchBar">Search:</label>
+						<input id="searchBar" type="text" name="searchBar" size="60">
+						</form>
+						<h1 id="categories">
+						<br>
+						Choose from the following categories:
+						</h1>
+						<nav id="categoryLinks">
+						Weapons
+						<a href="404.html">Clothing</a>
+						<a href="404.html">Consumable</a>
+						<a href="404.html">Misc</a>
+						</nav>
+					</div>
+					<div id="headRightRight">
+<!--the username, password login and view basket button are in this div-->
+						<br>
+						<label for="userName">Username:</label><br>
+						<input id="userName" type="text" name="userName"><br>
+						<label for= "password">Password:</label><br>
+						<input id="password" type="text" name="password"><br>
+						<button type="button">Login</button>
+<!--the action type "basket.html" allows the view basket button to link to basket.html-->
+						<form action="basket.html">
+							<button type="submit">View Basket</button>
+						</form>
+					</div>
+				</div>
+			</header>
+<!--the main part of the site-->
+			<section>
+				<hr>
+				<nav id="subCategoryLinks">
+				<a href="explosives.html">Explosives</a>
+				<a href="melee.html">Melee</a>
+				<a href="small_guns.html">Small Guns</a>
+				<a href="big_guns.html">Big Guns</a>
+				</nav>
+<!--The featured items are in a table 4 collumns 3 rows, each cell has a title of whatever the image inside is. so hovering over will tell the user what that particular item is-->
+				<table>
+					<tr>
+						<td title="M42 Fatman Mininuke Launcher">
+							<a href="fatman.html">
+							<img class= "featured" src="../images/fatman.png" alt="Featured item number 1"></a></td>
+						<td title="10mm Pistol">
+							<img class= "featured" src="../images/10mm_pistol.png" alt="Featured item number 1"></td>
+						<td title="Power Fist">
+							<img class= "featured" src="../images/power_fist.png" alt="Featured item number 1"></td>
+						<td title="Fragmentation Grenade">
+							<img class= "featured" src="../images/fragmentation_grenade.png" alt="Featured item number 1"></td>
+					<tr>
+						<td title="CZ53 Personal Minigun">
+							<img class= "featured" src="../images/minigun.png" alt="Featured item number 1"></td>
+						<td title="AER9 Laser Pistol">
+							<img class= "featured" src="../images/laser_pistol.png" alt="Featured item number 1"></td>
+						<td title="Super Sledge">
+							<img class= "featured" src="../images/super_sledge.png" alt="Featured item number 1"></td>
+						<td title="Hand Craft Bottlecap Mine">
+							<img class= "featured" src="../images/bottlecap_mine.png" alt="Featured item number 1"></td>
+					<tr>
+						<td title="Broadsider Portable Cannon">
+							<img class= "featured" src="../images/broadsider.png" alt="Featured item number 1"></td>
+						<td title="Alien Blasted **Very Rare**">
+							<img class= "featured" src="../images/alien_blaster.png" alt="Featured item number 1"></td>
+						<td title="Hand Craft Shishkebab">
+							<img class= "featured" src="../images/shishkebab.png" alt="Featured item number 1"></td>
+						<td title="Plasma Mine">
+							<img class= "featured" src="../images/plasma_mine.png" alt="Featured item number 1"></td>
+					</tr>
+				</table>
+			</section>
+<!--the footer is split into 2 divs, left for the links to references, T&C and Privacy policies. and right for the site creator-->
+			<footer>
+				<hr>
+					<div id="footLeft">
+						<a href="references.html"><u>References</u></a>
+						<a href="404.html"><u>Terms and conditions</u></a>
+						<a href="404.html"><u>Privacy policies</u></a>
+					</div>
+					<div id="footright">
+						Made by:Brendan Turner 2016
+					</div>
+			</footer>
+		</div>
+	</body>
+</html>

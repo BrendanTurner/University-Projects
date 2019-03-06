@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+
+<html lang = "en-GB">
+<!--Page Title, Link to style sheet(s)-->
+	<head>
+		<meta charset="UTF-8">
+		<title>Fat Man's Bunker</title>
+		<link rel="stylesheet" type="text/css" href="../css/Fat_man_bunker_stylesheet.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/Fat_man_bunker_shipping_stylesheet.css"/>
+	</head>
+<!--The body contains everything and has the wasteland background assigned to it-->
+	<body>
+<!--this div serves as a "wrapper" to keep everything else inside it the same size no matter how it is zoomed.-->
+		<div id ="wrapper">
+<!--the header is broken into 2 divs and then the right hand div is broken down into 2 more to give 3 collumns-->
+<!--It stays consistent on every page-->
+			<header>
+<!--This div is for the Logo of the site-->
+				<div id="headLeft">
+					<a href="assign2.html">
+					<img id="logo" src="../images/fatmans_bunker_logo.png" alt="website logo">
+					</a>
+				</div>
+				<div id="headRight">
+<!--The search bar and main categories are in this div-->
+					<div id="headCentre">
+						<br>
+						<form method="post">
+						<label for="searchBar">Search:</label>
+						<input id="searchBar" type="text" name="searchBar" size="60">
+						</form>
+						<h1 id="categories">
+						<br>
+						Choose from the following categories:
+						</h1>
+						<nav id="categoryLinks">
+						<a href="weapons.html">Weapons</a>
+						<a href="404.html">Clothing</a>
+						<a href="404.html">Consumable</a>
+						<a href="404.html">Misc</a>
+						</nav>
+					</div>
+					<div id="headRightRight">
+<!--the username, password login and view basket button are in this div-->
+						<br>
+						<label for="userName">Username:</label><br>
+						<input id="userName" type="text" name="userName"><br>
+						<label for= "password">Password:</label><br>
+						<input id="password" type="text" name="password"><br>
+						<button type="button">Login</button>
+<!--the action type "basket.html" allows the view basket button to link to basket.html-->
+						<form action="basket.html">
+							<button type="submit">View Basket</button>
+						</form>
+					</div>
+				</div>
+			</header>
+<!--the main part of the site, 2 divs for collumns for the main content-->
+			<section>
+				<hr>
+				<h2>
+				Billing details:
+				</h2>
+<!--a form for inputing card details goes in this div positioned to the left-->
+				<div id="sectLeft">
+					<form method="post">
+						<label for="crd">Please select your card or<br>add a new one:</label>
+							<select id="crd" name="card">
+								<option value="card1">your card ....1456</option>
+								<option value="newcard">New card</option>
+							</select><br><br>
+						<label for="crdType">Please select card type:</label>
+							<select id="crdType" name="cardType">
+								<option value="visa">Visa</option>
+								<option value="masterCard">Master Card</option>
+							</select><br><br>
+						<label for="cardName">Name on card:</label>
+							<input id="cardName" type="text" name="nameOnCard"><br><br>
+						<label for="cardNumber">Card number:</label>
+							<input id="cardNumber" type="text" name="cardNumber"><br><br>
+						<label for="expiryDate">Expiry date:</label>
+							<input id="expiryDate" type="text" name="expiryDate" size="4"><br><br>
+						<label for="securityCode">Security code<br>(the 3 digits on the back):</label>
+							<input id="securityCode" type="text" name="securityCode" size="3"><br><br>
+						<button type="submit" name="submit" value="submit" onclick="alert('your billing details have been saved')">Save</button><br><br>
+						<button type="reset" name="reset" value="rest">Reset</button>
+					</form>
+				</div>
+<!--the price breakdown and shipping addresse are in this div positioned to the right-->
+				<div id="sectRight">
+					<div id="rightTop">
+						<p>sub Total = 11265caps<br>
+						vat = 2253caps<br>
+						postage = 50caps<br>
+						Total = 13568caps</p>
+					</div>
+					<div id="rightBottom">
+						<p>Mr Brendan Turner<br>
+						Block A<br>
+						Filbert Village<br>
+						LE02 XXX<br>
+						01234 567890<br><br>
+						<form action="order_confirmation.html">
+							<button type="submit">To checkout</button>
+						</form>
+					</div>
+				</div>
+			</section>
+<!--the footer is split into 2 divs, left for the links to references, T&C and Privacy policies. and right for the site creator-->
+			<footer>
+				<hr>
+					<div id="footLeft">
+						<a href="references.html"><u>References</u></a>
+						<a href="404.html"><u>Terms and conditions</u></a>
+						<a href="404.html"><u>Privacy policies</u></a>
+					</div>
+					<div id="footright">
+						Made by:Brendan Turner 2016
+					</div>
+			</footer>
+		</div>
+	</body>
+</html>

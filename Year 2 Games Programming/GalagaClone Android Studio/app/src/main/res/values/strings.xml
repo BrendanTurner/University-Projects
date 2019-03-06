@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Galaga Clone</string>
+    <string name="start_button">start</string>
+    <string name="begin_button">Begin Game</string>
+    <string name="again_button">Play Again</string>
+    <string name="next_level">Next level</string>
+    <string name="settings_button">Settings</string>
+    <string name="home_button">Home</string>
+    <string name="back_button">Back</string>
+    <string name="game_over">Game Over!!, Your score was </string>
+    <string name="score">0</string>
+    <string name="play_again">, Would you like to play again?</string>
+    <string name="title_activity_settings">Settings</string>
+
+
+    <!-- Strings related to Settings -->
+    <string name="volume_bar">Volume</string>
+    <string name="music_toggle">Music</string>
+</resources>

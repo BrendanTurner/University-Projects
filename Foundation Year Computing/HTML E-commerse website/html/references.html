@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html lang = "en-GB">
+<!--Page Title, Link to style sheet(s)-->
+	<head>
+		<meta charset="UTF-8">
+		<title>Fat Man's Bunker</title>
+		<link rel="stylesheet" type="text/css" href="../css/Fat_man_bunker_stylesheet.css"/>
+		
+	</head>
+<!--The body contains everything and has the wasteland background assigned to it-->
+	<body>
+<!--this div serves as a "wrapper" to keep everything else inside it the same size no matter how it is zoomed.-->
+		<div id ="wrapper">
+<!--the header is broken into 2 divs and then the right hand div is broken down into 2 more to give 3 collumns-->
+<!--It stays consistent on every page-->
+			<header>
+<!--This div is for the Logo of the site-->
+				<div id="headLeft">
+					<a href="assign2.html">
+					<img id="logo" src="../images/fatmans_bunker_logo.png" alt="website logo">
+					</a>
+				</div>
+				<div id="headRight">
+<!--The search bar and main categories are in this div-->
+					<div id="headCentre">
+						<br>
+						<form method="post">
+						<label for="searchBar">Search:</label>
+							<input id="searchBar" type="text" name="searchBar" size="60">
+						</form>
+						<h1 id="categories">
+						<br>
+						Choose from the following categories:
+						</h1>
+						<nav id="categoryLinks">
+						<a href="weapons.html">Weapons</a>
+						<a href="404.html">Clothing</a>
+						<a href="404.html">Consumable</a>
+						<a href="404.html">Misc</a>
+						</nav>
+					</div>
+					<div id="headRightRight">
+<!--the username, password login and view basket button are in this div-->
+						<br>
+						<label for="userName">Username:</label><br>
+						<input id="userName" type="text" name="userName"><br>
+						<label for= "password">Password:</label><br>
+						<input id="password" type="text" name="password"><br>
+						<button type="button">Login</button>
+<!--the action type "basket.html" allows the view basket button to link to basket.html-->
+						<form action="basket.html">
+							<button type="submit">View Basket</button>
+						</form>
+					</div>
+				</div>
+			</header>
+<!--the main part of the site-->
+			<section>
+				<hr>
+				<h2>
+				References:
+				</h2>
+<!-- using a list the references used are containted here-->
+				<ul id="references">
+					<li>STACKOVERFLOW (2016) [WWW] stackoverflow. Available from: http://stackoverflow.com/ [Accessed 23/03/2016]</li>
+					<li>W3SCHOOLS (2016) [WWW] w3schools. Available from: http://www.w3schools.com/ [Accessed 23/03/2016]</li>
+					<li>THEVAULT (2016) [WWW] fallout wiki. Available from: http://fallout.wikia.com/wiki/Fallout_Wiki [Accessed 23/03/2016]</li>
+					<li>FALLOUT-ROAMING THE WASTELAND (2015) [WWW] deviantart. Available from: http://ghostfire.deviantart.com/art/ [Accessed 23/03/2016]</li>
+				</ul>
+			</section>
+<!--the footer is split into 2 divs, left for the links to references, T&C and Privacy policies. and right for the site creator-->
+			<footer>
+				<hr>
+					<div id="footLeft">
+						<a href="references.html"><u>References</u></a>
+						<a href="404.html"><u>Terms and conditions</u></a>
+						<a href="404.html"><u>Privacy policies</u></a>
+					</div>
+					<div id="footright">
+						Made by:Brendan Turner 2016
+					</div>
+			</footer>
+		</div>
+	</body>
+</html>
