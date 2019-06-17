@@ -1,0 +1,24 @@
+
+{"storyTriggers" : 
+[
+	{"Name" : "Dungeon1","Trigger" : false},
+	{"Name" : "Dungeon2","Trigger" : false},
+	{"Name" : "Dungeon3","Trigger" : false},
+	{"Name" : "Dungeon4","Trigger" : false},
+	{"Name" : "Dungeon1-1st","Trigger" : false},
+	{"Name" : "Dungeon2-1st","Trigger" : false},
+	{"Name" : "Dungeon3-1st","Trigger" : false},
+	{"Name" : "Dungeon4-1st","Trigger" : false},
+	{"Name" : "Dungeon1-2nd","Trigger" : false},
+	{"Name" : "Dungeon2-2nd","Trigger" : false},
+	{"Name" : "Dungeon3-2nd","Trigger" : false},
+	{"Name" : "Dungeon4-2nd","Trigger" : false},
+	{"Name" : "Dungeon1-3rd","Trigger" : false},
+	{"Name" : "Dungeon2-3rd","Trigger" : false},
+	{"Name" : "Dungeon3-3rd","Trigger" : false},
+	{"Name" : "Dungeon4-3rd","Trigger" : false},
+	{"Name" : "Dungeon1-4th","Trigger" : false},
+	{"Name" : "Dungeon2-4th","Trigger" : false},
+	{"Name" : "Dungeon3-4th","Trigger" : false},
+	{"Name" : "Dungeon4-4th","Trigger" : false}
+]}

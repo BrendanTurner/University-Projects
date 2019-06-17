@@ -1,0 +1,8 @@
+{
+	"Inputs":[
+		{"Command": "playerUp", "Key": 22},
+		{"Command": "playerDown", "Key": 18},
+		{"Command": "playerLeft", "Key": 0},
+		{"Command": "playerRight", "Key": 3}
+		]
+}

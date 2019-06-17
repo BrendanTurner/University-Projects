@@ -1,0 +1,14 @@
+{"objects" : 
+[
+	{"Object" : "shrub","PosX" : 8,"PosY" : 8},
+	{"Object" : "grassPit","PosX" : 9,"PosY" : 9},
+	{"Object" : "shrub","PosX" : 2,"PosY" : 0},
+	{"Object" : "transitionZoneSWTown","PosX" : 3,"PosY" : -1},
+	{"Object" : "shrub","PosX" : 5,"PosY" : 0},
+	{"Object" : "shrub","PosX" : 43,"PosY" : 0},
+	{"Object" : "transitionZoneSTown","PosX" : 44,"PosY" : -1},
+	{"Object" : "shrub","PosX" : 46,"PosY" : 0},
+	{"Object" : "shrub","PosX" : 84,"PosY" : 0},
+	{"Object" : "transitionZoneSETown","PosX" : 85,"PosY" : -1},
+	{"Object" : "shrub","PosX" : 87,"PosY" : 0}
+]}
