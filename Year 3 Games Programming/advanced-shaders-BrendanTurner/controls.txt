@@ -1,0 +1,8 @@
+WASD to move and mouse for camera as usual
+numbers 1 to 6 to cycle between different filters
+1 is no filter
+2 is greyscale
+3 is inverted greyscale
+4 is negative
+5 is crosshatch
+6 is inverted crosshatch
