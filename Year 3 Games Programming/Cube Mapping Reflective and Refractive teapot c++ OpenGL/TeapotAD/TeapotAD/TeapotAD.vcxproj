@@ -22,7 +22,7 @@
     <ProjectGuid>{FC5957EB-122F-43B9-B138-1F7281F4CF36}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>TeapotAD</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.14393.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
